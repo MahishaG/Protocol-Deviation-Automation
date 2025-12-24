@@ -1,4 +1,4 @@
-# Protocol-Deviation-Automation
+# Protocol Deviation Automation
 
 ## 📌 Project Overview
 Developed a Python-based web application using Streamlit to automate protocol deviation checks in clinical research records. The system validates study data against predefined rules and displays deviations through an interactive interface, significantly reducing manual effort.
