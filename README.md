@@ -12,19 +12,15 @@ The output is an Interactive dashboard displaying deviated records per check.
 User uploads trial data via Streamlit web interface after the application is launched once the python code runs.
 Application reads files and its validated against the protocol checks.
 
-2️⃣ Validation Rules
-Each record is checked against predefined rules (example):
+2️⃣ Validation Rules:
+Each record is checked against predefined rules, exmaple - Visit within allowed date window, Lab measurement within protocol-defined ranges,Required procedures completed, etc.
 
-Visit within allowed date window
-Lab measurement within protocol-defined ranges
-Required procedures completed
-
-3️⃣ Python iterates over all uploaded files and all rows, detecting deviations.
+3️⃣ Python iterates over all uploaded files and all rows, detecting deviations and these records are displayed in the final application.
 
 ## 💻 Output
 For each check:
 1. Displays all deviated records in tables.
-2. Provides sorting/filtering per PatientID or Visit.
+2. Provides filtering per PatientID or Visit.
 3. Optional export for further review.
 
 ## Conclusion
