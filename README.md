@@ -5,7 +5,7 @@ Developed a Python-based web application using Streamlit to automate protocol de
 Technologies used: Python Libraries like Streamlit, NumPy, etc
 Execution: Python module is run via Visual Studio terminal, which automatically launches a web application for file uploads and processing.
 Input: Clinical trial data files (CSV / Excel) containing patient visit information, lab measurements, etc.
-Output: Interactive dashboard displaying deviated records per check.
+The output is an Interactive dashboard displaying deviated records per check.
 
 ## 🔗 Technical Approach:
 1️⃣ Upload Input Files:
